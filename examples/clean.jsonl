@@ -1,0 +1,4 @@
+{"step":1,"type":"user","content":"What is our refund window? (EXAMPLE DATA)","tokens":12}
+{"step":2,"type":"tool_call","name":"search_docs","args":{"q":"refund window"},"tokens":20}
+{"step":3,"type":"tool_result","content":"id=policy-7: Refunds are accepted within 30 days.","tokens":40}
+{"step":4,"type":"assistant","content":"30 days [doc:policy-7].","tokens":15}
